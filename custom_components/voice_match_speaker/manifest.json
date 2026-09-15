@@ -1,7 +1,7 @@
 {
   "domain": "voice_match_speaker",
   "name": "Voice Match Speaker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "config_flow": true,
   "dependencies": ["conversation", "frontend", "stt"],
   "codeowners": ["@dcshoes23"],
