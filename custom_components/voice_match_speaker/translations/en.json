@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Voice Match Speaker",
+        "description": "Select the Wyoming Voice Match STT entity and the conversation agent to receive unmatched requests.",
+        "data": {
+          "source_stt": "Voice Match STT entity",
+          "target_agent": "Conversation agent"
+        }
+      }
+    },
+    "error": {
+      "invalid_source": "Select an available Wyoming STT entity.",
+      "invalid_agent": "Select an available conversation agent."
+    },
+    "abort": {
+      "no_wyoming_stt": "Set up Voice Match through the Wyoming integration first.",
+      "no_conversation_agent": "Set up a conversation agent first."
+    }
+  }
+}

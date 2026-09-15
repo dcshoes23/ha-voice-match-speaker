@@ -1,0 +1,11 @@
+{
+  "domain": "voice_match_speaker",
+  "name": "Voice Match Speaker",
+  "version": "0.2.0",
+  "config_flow": true,
+  "dependencies": ["conversation", "frontend", "stt"],
+  "codeowners": ["@dcshoes23"],
+  "documentation": "https://github.com/dcshoes23/ha-voice-match-speaker",
+  "issue_tracker": "https://github.com/dcshoes23/ha-voice-match-speaker/issues",
+  "iot_class": "local_push"
+}

@@ -1,0 +1,11 @@
+lookup:
+  name: Look up speaker
+  description: Return the Voice Match speaker for a sentence automation in the current voice request.
+  fields:
+    sentence:
+      name: Sentence
+      description: Pass the sentence trigger's `trigger.sentence` value.
+      required: true
+      example: "Turn on the kitchen lights"
+      selector:
+        text:
