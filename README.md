@@ -14,6 +14,8 @@ Tested on Home Assistant Core 2026.9.2.
 
 ### HACS
 
+[![Open your Home Assistant instance and open this repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dcshoes23&repository=ha-voice-match-speaker&category=integration)
+
 Install this integration as a [HACS custom repository](https://www.hacs.dev/docs/faq/custom_repositories/):
 
 1. In Home Assistant, open **HACS**, select the three-dot menu in the upper-right corner, then **Custom repositories**.
