@@ -14,6 +14,7 @@ from .const import ATTR_SENTENCE, DOMAIN, SERVICE_LOOKUP
 from .speaker import speaker_for_sentence
 
 PLATFORMS = ["stt", "conversation"]
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 
 
 async def async_setup(hass: HomeAssistant, config: dict) -> bool:
@@ -28,7 +29,7 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
             )
         ]
     )
-    frontend.add_extra_js_url(hass, f"{settings_url}?v=0.2.0")
+    frontend.add_extra_js_url(hass, f"{settings_url}?v=0.2.2")
 
     async def lookup(call: ServiceCall) -> dict[str, str | None]:
         return {"speaker": speaker_for_sentence(call.data[ATTR_SENTENCE])}

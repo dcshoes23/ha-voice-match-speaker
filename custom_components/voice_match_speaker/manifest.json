@@ -3,7 +3,7 @@
   "name": "Voice Match Speaker",
   "codeowners": ["@dcshoes23"],
   "config_flow": true,
-  "dependencies": ["conversation", "frontend", "stt"],
+  "dependencies": ["conversation", "frontend", "http", "stt"],
   "documentation": "https://github.com/dcshoes23/ha-voice-match-speaker",
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/dcshoes23/ha-voice-match-speaker/issues",
